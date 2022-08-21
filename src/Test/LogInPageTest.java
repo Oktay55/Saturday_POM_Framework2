@@ -88,7 +88,7 @@ public class LogInPageTest extends BaseDriver {
 
     @DataProvider(name = "LogInData") // Enter your correct email and correct password
     public Object [][] testDataProvider() {
-        return new Object[][] {{"test1234@blahblah.com", "test12345"}};
+        return new Object[][] {{"cimbom@test.com", "test12345"}};
     }
     @DataProvider(name = "LogInData2") // Enter your incorrect email and correct password
     public Object [][] testDataProvider2() {
@@ -96,7 +96,7 @@ public class LogInPageTest extends BaseDriver {
     }
     @DataProvider(name = "LogInData3") // Enter your correct email and incorrect password
     public Object [][] testDataProvider3() {
-        return new Object[][] {{"test1234@blahblah.com", "toffee"}};
+        return new Object[][] {{"cimbom@test.com", "toffee"}};
     }
     @DataProvider(name = "LogInData4") // Enter your incorrect email and incorrect password
     public Object [][] testDataProvider4() {

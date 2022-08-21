@@ -1,0 +1,8 @@
+<suite name="Place Order Functionality Test" >
+    <test name="Place Order Test" >
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="Test.PlaceOrderPageTest"></class>
+        </classes>
+    </test>
+</suite>
